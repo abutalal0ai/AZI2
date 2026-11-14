@@ -12,7 +12,7 @@
     a{color:inherit;text-decoration:none}.wrap{width:min(1100px,92%);margin:auto}
     header{padding:22px 0;display:flex;align-items:center;justify-content:space-between}.brand{font-size:1.25rem;font-weight:800;letter-spacing:.3px;display:flex;align-items:center;gap:10px}.brand-logo{width:48px;height:48px;border-radius:50%;border:2px solid #d4af37;object-fit:cover}.brand span{color:#e0bd55}
     nav{display:flex;gap:25px;color:var(--muted);font-size:.95rem}nav a:hover{color:white}
-    .hero{min-height:75vh;display:grid;grid-template-columns:1.15fr .85fr;align-items:center;gap:45px;padding:55px 0 85px}
+    .hero{min-height:75vh;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:24px;padding:45px 0 75px;text-align:center}.hero>div:first-child{order:2}.hero .play-card{order:1;width:100%;max-width:620px;min-height:0;padding:0;background:transparent;border:0;box-shadow:none;overflow:visible}.hero .play-card:before,.hero .play-card:after{display:none}.hero .play-card img{width:min(78vw,440px)!important;max-width:100%;height:auto;aspect-ratio:1;object-fit:contain;border-radius:0!important;box-shadow:none!important}.hero .card-caption{position:static;margin-top:8px;color:#d8cba5}.hero .lead{margin:0 auto 30px}.hero .actions{justify-content:center}
     .eyebrow{display:inline-flex;align-items:center;gap:9px;padding:7px 14px;border:1px solid #ffffff24;border-radius:99px;color:#e8d9a8;background:#ffffff0a;font-size:.88rem}
     .dot{width:8px;height:8px;border-radius:50%;background:#d4af37;box-shadow:0 0 15px #d4af37}
     h1{font-size:clamp(2.5rem,6vw,4.8rem);line-height:1.18;margin:22px 0 18px;letter-spacing:-2px}h1 em{font-style:normal;background:linear-gradient(90deg,#e2c15c,#b99a43);-webkit-background-clip:text;background-clip:text;color:transparent}
@@ -26,7 +26,7 @@
     .features{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.feature{padding:25px;border:1px solid #ffffff14;background:#ffffff08;border-radius:18px}.feature .icon{font-size:1.8rem}.feature h3{margin:10px 0 5px}.feature p{color:var(--muted);margin:0;font-size:.95rem}
     .cta{padding:45px 25px;text-align:center;border-radius:24px;background:linear-gradient(120deg,#29220f,#40320f);border:1px solid #ffffff20}.cta h2{font-size:2rem;margin:0 0 8px}.cta p{color:#e8dfc6;margin:0 0 22px}
     footer{padding:28px 0;color:#a99f82;text-align:center;border-top:1px solid #ffffff12;font-size:.9rem}
-    @media(max-width:760px){nav{gap:13px;font-size:.82rem}.hero{grid-template-columns:1fr;padding-top:35px;gap:35px}.play-card{min-height:270px}.features{grid-template-columns:1fr}h1{letter-spacing:-1px}header{align-items:flex-start;gap:15px;flex-direction:column}}
+    @media(max-width:760px){nav{gap:13px;font-size:.82rem}.hero{padding-top:35px;gap:22px}.features{grid-template-columns:1fr}h1{letter-spacing:-1px}header{align-items:flex-start;gap:15px;flex-direction:column}}
   </style>
 </head>
 <body>
