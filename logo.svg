@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+<defs><path id="top" d="M 82,300 A 218,218 0 0 1 518,300"/><path id="bottom" d="M 82,300 A 218,218 0 0 0 518,300"/></defs>
+<circle cx="300" cy="300" r="282" fill="#111" stroke="#555" stroke-width="8"/>
+<circle cx="300" cy="300" r="268" fill="#fff" stroke="#222" stroke-width="12"/>
+<circle cx="300" cy="300" r="178" fill="#fff" stroke="#222" stroke-width="15"/>
+<path d="M42 300 L112 340 L160 312 M558 300 L488 340 L440 312" fill="none" stroke="#222" stroke-width="25"/>
+<text font-family="Arial,sans-serif" font-size="37" font-weight="900" letter-spacing="7" fill="#080808"><textPath href="#top" startOffset="50%" text-anchor="middle">AZIZAZIZAZIZ</textPath></text>
+<text font-family="Arial,sans-serif" font-size="37" font-weight="900" letter-spacing="7" fill="#080808"><textPath href="#bottom" startOffset="50%" text-anchor="middle">AZIZAZIZAZIZ</textPath></text>
+<text x="300" y="326" text-anchor="middle" font-family="Arial,sans-serif" font-size="100" font-weight="900" letter-spacing="3" fill="#f7ae21">aziZ</text>
+<g fill="none" stroke="#f7ae21" stroke-width="9" stroke-linecap="round"><path d="M185 385 Q210 365 235 385 T285 385 T335 385 T385 385 T435 385"/><path d="M185 408 Q210 388 235 408 T285 408 T335 408 T385 408 T435 408"/><path d="M185 431 Q210 411 235 431 T285 431 T335 431 T385 431 T435 431"/></g>
+</svg>
